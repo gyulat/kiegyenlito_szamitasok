@@ -62,9 +62,9 @@ a2 = sqrt(-2*(a(6)-(a(3)*a(4)^2-a(2)*a(4)*a(5)+a(1)*a(5)^2)/(4*a(1)*a(3)-a(2)^2)
 % elfordulás szöge
 theta = 0.5*atan(a(2)/(a(1)-a(3)));
 printf("Az ellipszis adatai: \n");
-printf("xc: %.3f  yc: %.3f\n",xc,yc);  % xc: 2.694  yc: 1.875, eredeti: (3,2)
-printf("a1: %.3f  a2: %.3f\n",a1,a2);  % a1: 1.129  a2: 1.590, eredeti: 1.5, 2.5
-printf("theta: %.1f\n fok", theta*180/pi); % theta: 36.4, eredeti: 30
+printf("xc: %.3f  yc: %.3f\n",xc,yc);  % eredeti: (3,2)
+printf("a1: %.3f  a2: %.3f\n",a1,a2);  % eredeti: 1.5, 2.5
+printf("theta: %.1f\n fok", theta*180/pi); % eredeti: 30
 
 % teljes ellipszisre, ellipdata.txt:
 %maximális konszenzus halmaz elemszáma: 62
