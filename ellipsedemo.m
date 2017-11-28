@@ -37,7 +37,6 @@ printf("maximális konszenzus halmaz elemszáma: %d\n",nmax)
 plot(xin,yin,'go')
 ell = @(x,y) x.^2+bp(1)*x.*y+bp(2)*y.^2+bp(3)*x+bp(4)*y+bp(5);
 ezplot(ell,[0,6,0,6])
-%title(["konszenzus halmaz elemszáma: ",num2str(nmax)])
 % LKN ellipszis illesztés (Fitzgibbon et al. 1996)
 D = [xin.*xin, xin.*yin, yin.*yin, xin, yin, ones(size(xin))];
 S = D'*D;
