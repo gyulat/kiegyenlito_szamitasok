@@ -1,4 +1,3 @@
-# kiegyenlito_szamitasok
 Kiegyenlítő számítások MSc tárgy anyagai
 
 .. image:: https://mybinder.org/badge_logo.svg
